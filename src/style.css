@@ -1,0 +1,20 @@
+html {
+  color: #4a10ef;
+  background-color: #f6f7fb;
+
+  font-family: aktiv-grotesk, -apple-system, BlinkMacSystemFont, 'Open Sans',
+    sans-serif, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue';
+  font-display: fallback; /* Define how the browser behaves during download */
+}
+
+main {
+  display: grid;
+  place-items: center;
+  min-height: 96vh;
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: -0.6px;
+}
