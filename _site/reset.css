@@ -29,12 +29,17 @@ dd {
   margin: 0;
 }
 
+ul {
+  margin: 0px;
+  padding-inline-start: 0px;
+}
+
 /* Set core body defaults */
 body {
-  min-height: 96vh;
+  min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -49,7 +54,8 @@ a:not([class]) {
 }
 
 /* Make images easier to work with */
-img {
+img,
+video {
   max-width: 100%;
   display: block;
 }

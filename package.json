@@ -2,6 +2,8 @@
   "name": "use-scaffold",
   "version": "0.1.0",
   "dependencies": {
-    "@11ty/eleventy": "0.10.0"
+    "@11ty/eleventy": "0.10.0",
+    "rellax": "^1.12.1",
+    "yall-js": "^3.2.0"
   }
 }

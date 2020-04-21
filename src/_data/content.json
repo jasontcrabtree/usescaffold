@@ -1,0 +1,109 @@
+{
+  "[logoLockupNav]": "content-value",
+
+  "heroHeadline": "Premium Figma Prototyping and Animation UI Kit Library",
+  "heroSubHead": "Scaffold is a UI kit library of 160 pre-built Figma design prototypes and animations for you to use in your design work. Built with a commitment to reusability, speed and flexibility, Scaffold lets you <strong>build complex Figma prototypes quickly</strong>, while staying flexible enough to fit your unique needs.",
+  "[Hero Image]": "content-value",
+
+  "learnMoreButton": "Learn More",
+  "buyNowButton": "Buy Now",
+
+  "useCaseHeader": "Scaffold Use Cases and Benefits",
+  "useCaseListParent": [
+    {
+      "useCaseListItems": "Quickly adding interactions to your existing designs"
+    },
+    {
+      "useCaseListItems": "Prototyping complex, multi-screen animations"
+    },
+    {
+      "useCaseListItems": "Showing clients interactions in your mock-ups or designs"
+    }
+  ],
+
+  "[Image #2]": "content-value",
+
+  "targetCustomersHeader": "Who is Scaffold built for?",
+  "targetCustomersListParent": [
+    {
+      "targetCustomersListItems": "Designers who want to add quickly and easily add interactions, prototypes or animations to existing designs"
+    },
+    {
+      "targetCustomersListItems": "Designers and Developers looking to explore different types of motion design available in Figma and ready to add to future designs"
+    },
+    {
+      "targetCustomersListItems": "Design studios doing client work who want to easily add interaction to client work, without spending hours tweaking connections and frame interactions"
+    },
+    {
+      "targetCustomersListItems": "Probably <strong>*not*</strong> for teams that have dedicated motion designers!"
+    }
+  ],
+
+  "[Image #3]": "content-value",
+
+  "packageHeader": "Package Details: What's Included",
+  "packageSubhead": "Scaffold is a premium Figma library of pre-built animations and design prototypes, designed and ready to drop into your projects. Built for reusability, speed, customization and flexibility. Ready to use on a full range of projects from client work to in-house designs to new product develop or side projects.",
+  "packageListParent": [
+    {
+      "packageListItems": "The main Scaffold file that includes 40 core prototype scaffolds, and 160 total variations on those designs."
+    },
+    {
+      "packageListItems": "Prototypes and animations built to be used in web and mobile design suitable for almost any kind of digital design you can think of. "
+    },
+    {
+      "packageListItems": "Prototypes and animations include designs for mobile, web, marketing, social, gallery, e-commerce, menus and navigation."
+    },
+    {
+      "packageListItems": "Eight example prototypes that show the power and flexibility of Scaffold, giving you inspiration for integrating prototyping into your own work."
+    }
+  ],
+  "packageContentCalloutParent": [
+    {
+      "packageContentCallout": "list item"
+    },
+    {
+      "packageContentCallout": "list item"
+    },
+    {
+      "packageContentCallout": "list item"
+    },
+    {
+      "packageContentCallout": "list item"
+    }
+  ],
+
+  "pricingHeader": "Pricing and Packages",
+  "[pricingTableSingle]": "Single License",
+  "[pricingTableTeam]": "Team License",
+
+  "docsHeader": "Documentation and Scaffold Guides",
+  "docsListParent": [
+    {
+      "docsListItems": "\n<a href=\"/eula\">Getting started with Scaffold Prototyping</a>.\n"
+    },
+    {
+      "docsListItems": "\n<a href=\"/\">Advanced Scaffold Tutorial: Uses, Tips and Tricks</a>.\n"
+    },
+    {
+      "docsListItems": "\n<a href=\"/\">Advanced Prototyping and Animation Figma Features</a>.\n"
+    }
+  ],
+
+  "faqsHeader": "FAQs and Extra Details:",
+  "faqsQuestion1": "How does the lifetime license work?",
+  "faqsQuestion2": "Does Scaffold work with Sketch, Adobe XD, or InVision Studio?",
+  "faqsQuestion3": "Does Scaffold use Figma Components that can fit into our existing design system?",
+  "faqsListParent": [
+    {
+      "faqsListItems1": "Similar to <a href=\"https://www.sketch.com/pricing/\">Sketch</a>, and <a href=\"https://useflowkit.com/license\">Flowkit</a>. All updates until Dec 2020 are included in the current price of $49.00 (single license) or $199.0 (team license). Future releases will be marked with a new version number."
+    },
+    {
+      "faqsListItems2": "It's not recommended. Scaffold has been built based on custom animation and prototyping features in <a href=\"https://www.figma.com/prototyping/\">Figma</a>. Because of that, you'll get the best results using Scaffold in Figma. If you're interested in a future version using another tool please contact me."
+    },
+    {
+      "faqsListItems3": "Not at this stage (April 2020). Figma Components don't reliably save prototyping connections on duplication or re-use. Scaffold relies on copy and pasting, which has consistent behavior across files, pages and within pages. I would love to rebuild Scaffold using Components in the future, so watch this space based on changes to Figma!"
+    }
+  ],
+
+  "footer": "Footer"
+}

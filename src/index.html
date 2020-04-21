@@ -3,5 +3,285 @@ layout: layouts/base.html
 ---
 
 <main>
-  <h1>Hello, Scaffold</h1>
+  <section class="rellax" data-rellax-speed="-2" data-rellax-zindex="0">
+    <h1 class="text--hero-h1">{{- content.heroHeadline -}}</h1>
+    <p class="text--subhead">{{- content.heroSubHead -}}</p>
+  </section>
+
+  <div class="rellax absolute-garnish--left"></div>
+  <div class="rellax absolute-garnish--right"></div>
+
+  <figure class="rellax" data-rellax-speed="0" data-rellax-zindex="5">
+    <img alt="Lorem Picsum" src="/assets/images/landing-menu-shop.png" />
+    <figcaption>
+      A demo design
+      <br />
+      <a href="#">Demo Figma File</a>
+    </figcaption>
+  </figure>
+
+  <section class="cta-layout--split">
+    <a class="cta-default-layout primary-page-ctas" href="/#package"
+      >{{- content.learnMoreButton -}}</a
+    >
+
+    <a
+      class="cta-default-layout primary-page-ctas cta-primary"
+      href="https://gum.co/YFtxV"
+      rel="noopener"
+      target="_blank"
+      >Buy Now</a
+    >
+  </section>
+
+  <section id="uses">
+    <h2>{{- content.useCaseHeader -}}</h2>
+    <ul>
+      {%- for item in content.useCaseListParent -%}
+      <li class="hanging-indent">{{- item.useCaseListItems -}}</li>
+      {%- endfor -%}
+    </ul>
+  </section>
+
+  <section>
+    <img
+      alt="Lorem Picsum"
+      height="600"
+      src="https://picsum.photos/801/600"
+      width="800"
+    />
+  </section>
+
+  <section>
+    <h2>{{- content.targetCustomersHeader -}}</h2>
+    <ul>
+      {%- for item in content.targetCustomersListParent -%}
+      <li class="hanging-indent">{{- item.targetCustomersListItems -}}</li>
+      {%- endfor -%}
+    </ul>
+  </section>
+
+  <section>
+    <img alt="Lorem Picsum" src="https://picsum.photos/800/600" />
+  </section>
+
+  <section class="package-details--block full-bleed" id="package">
+    <h2>{{- content.packageHeader -}}</h2>
+    <p>{{- content.packageSubhead -}}</p>
+    <ul class="package-details--grid">
+      {%- for item in content.packageListParent -%}
+      <li class="hanging-indent package-details-child">
+        {{- item.packageListItems -}}
+      </li>
+      {%- endfor -%}
+    </ul>
+  </section>
+
+  <section id="price">
+    <h2>{{- content.pricingHeader -}}</h2>
+
+    <table class="table">
+      <thead>
+        <!-- <tr>
+                  <th colspan="2">Package Options</th>
+              </tr> -->
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <h3>
+              Single License: $49.00
+            </h3>
+          </td>
+          <td>
+            <h3>
+              Team License: $149.00
+            </h3>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li class="hanging-indent">
+                1 Lifetime license for Scaffold 1.0
+              </li>
+              <li class="hanging-indent">
+                40 Unique Animations and Prototypes
+              </li>
+              <li class="hanging-indent">
+                160 Animation and Prototype Variations
+              </li>
+              <li class="hanging-indent">
+                Documentation for Using and Integrating Scaffold into your
+                Workflow
+              </li>
+              <li class="hanging-indent">
+                Free updates until Dec 2020
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li class="hanging-indent">
+                5 Lifetime licenses for Scaffold 1.0 to use with your team
+              </li>
+              <li class="hanging-indent">
+                40 Unique Animations and Prototypes
+              </li>
+              <li class="hanging-indent">
+                160 Animation and Prototype Variations
+              </li>
+              <li class="hanging-indent">
+                Documentation for Using and Integrating Scaffold into your
+                Workflow
+              </li>
+              <li class="hanging-indent">
+                Free updates until Dec 2020
+              </li>
+              <li class="hanging-indent">
+                One hour video call to talk about Scaffold, how to best use it
+                and how to integrate Scaffold into your workflow
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a class="cta-default-layout" href="/#">Buy Now</a>
+          </td>
+          <td>
+            <a class="cta-default-layout" href="/#">Buy Now</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>{{- content.docsHeader -}}</h2>
+    <ul>
+      {%- for item in content.docsListParent -%}
+      <li class="hanging-indent">{{- item.docsListItems -}}</li>
+      {%- endfor -%}
+    </ul>
+  </section>
+
+  <section>
+    <video
+      controls
+      height="600"
+      src="/assets/videos/pull-to-refresh.mp4"
+      width="800"
+    ></video>
+  </section>
+
+  <section>
+    <h2>{{- content.faqsHeader -}}</h2>
+    <!--     <ul>
+            {%- for item in content.faqsListParent -%}
+                <li class="hanging-indent ">
+                    {{- item.faqsListItems -}}</li>
+            {%- endfor -%}
+        </ul> -->
+
+    <ul class="faq-question-parent--spacing">
+      <li class="hanging-indent">
+        <span class="faq-question--style"> {{content.faqsQuestion1}}</span>
+        <br />
+        {%- for item in content.faqsListParent -%} {{item.faqsListItems1}} {%-
+        endfor -%}
+      </li>
+      <li class="hanging-indent">
+        <span class="faq-question--style"> {{content.faqsQuestion2}}</span>
+        <br />
+        {%- for item in content.faqsListParent -%} {{item.faqsListItems2}} {%-
+        endfor -%}
+      </li>
+      <li class="hanging-indent">
+        <span class="faq-question--style">{{content.faqsQuestion3}}</span>
+        <br />
+        {%- for item in content.faqsListParent -%} {{item.faqsListItems3}} {%-
+        endfor -%}
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>{{faq.title}}</h2>
+  </section>
+
+  <!-- Begin Mailchimp Signup Form -->
+  <section class="mailchimp-parent" id="mc_embed_signup">
+    <form
+      action="https://gmail.us19.list-manage.com/subscribe/post?u=c0459318e9c76f6fcbba456e1&amp;id=aced610bc9"
+      class="validate"
+      id="mc-embedded-subscribe-form"
+      method="post"
+      name="mc-embedded-subscribe-form"
+      novalidate
+      target="_blank"
+    >
+      <div id="mc_embed_signup_scroll">
+        <h3 class="text--brand-primary">Scaffold Product Updates</h3>
+        <p>
+          Signup for infrequent emails about Scaffold updates, releases and
+          future new products. No spam, I hate deleting emails too!
+        </p>
+        <div class="mc-field-group">
+          <label class="text--bold" for="mce-FNAME">First Name </label>
+          <input
+            class="mc-email-input"
+            id="mce-FNAME"
+            name="FNAME"
+            type="text"
+            value=""
+          />
+        </div>
+        <div class="mc-field-group">
+          <label class="text--bold" for="mce-EMAIL"
+            >Email Address
+            <span class="mc-asterisk">(Required)*</span>
+          </label>
+          <input
+            class="required email mc-email-input"
+            id="mce-EMAIL"
+            name="EMAIL"
+            type="email"
+            value=""
+          />
+        </div>
+        <div class="clear" id="mce-responses">
+          <div
+            class="response"
+            id="mce-error-response"
+            style="display: none;"
+          ></div>
+          <div
+            class="response"
+            id="mce-success-response"
+            style="display: none;"
+          ></div>
+        </div>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div aria-hidden="true" style="position: absolute; left: -5000px;">
+          <input
+            name="b_c0459318e9c76f6fcbba456e1_aced610bc9"
+            tabindex="-1"
+            type="text"
+            value=""
+          />
+        </div>
+        <div class="clear mc-cta-layout">
+          <input
+            class="button mc-email-input cta-primary"
+            id="mc-embedded-subscribe"
+            name="subscribe"
+            type="submit"
+            value="Subscribe"
+          />
+        </div>
+      </div>
+    </form>
+  </section>
+  <!--End mc_embed_signup-->
 </main>

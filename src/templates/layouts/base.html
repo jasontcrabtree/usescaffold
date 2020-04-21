@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>{{ settings.siteName }}</title>
+    <title>{{ metadata.siteName }}</title>
     <link href="/reset.css" rel="stylesheet" />
     <link href="/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.typekit.net/hye8foj.css" />
-    <link rel="icon" type="image/png" href="/assets/favicon.png" />
-    <!--     <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicon.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicon.png"
-      sizes="96x96"
-    /> -->
-  </head>
-  <body>
-    {% include ./nav.html %} {{ content }}
+    <link href="https://use.typekit.net/hye8foj.css" rel="stylesheet" />
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+    <link href="/assets/favicon.png" rel="icon" type="image/png" />
+    <link href="/assets/favicon.png" rel="icon" sizes="32x32" type="image/png" />
+    <link href="/assets/favicon.png" rel="icon" sizes="96x96" type="image/png" />
+    <meta name="Description" content="{{ metadata.description }}">
+</head>
 
-    <script src="/script/index.js"></script>
-  </body>
+<body>`
+    {%- include ./nav.html -%}
+    {{ content }}
+    {%- include ./footer.html -%}
+
+    <script defer src="/script/rellax.min.js"></script>
+    <script defer src="/script/yall.mjs"></script>
+    <script defer src="/script/index.js"></script>
+</body>
+
 </html>
