@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-        <title>{{ metadata.siteName }}</title>
-        <link href="/reset.css" rel="stylesheet"/>
-        <link href="/style.css" rel="stylesheet"/>
-        <link href="https://use.typekit.net/hye8foj.css" rel="stylesheet"/>
-        <script src="https://gumroad.com/js/gumroad.js"></script>
-        <link href="/assets/favicon.png" rel="icon" type="image/png"/>
-        <link href="/assets/favicon.png" rel="icon" sizes="32x32" type="image/png"/>
-        <link href="/assets/favicon.png" rel="icon" sizes="96x96" type="image/png"/>
-        {%- include ./meta.html -%}
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>{{ metadata.siteName }}</title>
+    <link href="/reset.css" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet" />
+    <link href="https://use.typekit.net/hye8foj.css" rel="stylesheet" />
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+    <link href="/assets/favicon.png" rel="icon" type="image/png" />
+    <link
+      href="/assets/favicon.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="/assets/favicon.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    {%- include ./meta.html -%}
+  </head>
 
-    </head>
+  <body>
+    {%- include ./nav.html -%} {{ content }} {%- include ./footer.html -%}
 
-    <body>
-        {%- include ./nav.html -%}
-        {{ content }}
-        {%- include ./footer.html -%}
-
-        <script defer src="/script/rellax.min.js"></script>
-        <script defer src="/script/yall.mjs"></script>
-        <script defer src="/script/index.js"></script>
-    </body>
+    <script defer src="/script/rellax.min.js"></script>
+    <script defer src="/script/yall.mjs"></script>
+    <script defer src="/script/index.js"></script>
+  </body>
 </html>
