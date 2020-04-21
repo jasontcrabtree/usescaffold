@@ -1,9 +1,9 @@
 {
   "siteName": "Scaffold: Figma Prototype and Animation UI Library",
   "url": "https://usescaffold.com",
-  "image": "/assets/images/cover-image-x3.png",
+  "image": "https://usescaffold.com/assets/images/cover-image-x3.png",
   "imageAlt": "Scaffold is a Figma Prototype and Animation UI Kit",
-  "description": "Scaffold lets you build high quality, interactive Figma prototypes quickly and easily. Built for speed, flexibility and reusability. Let's get animating, now!",
+  "description": "Scaffold lets you build high quality, interactive Figma prototypes quickly and easily. 160 prototypes built for speed and customisation for you to use, today!",
   "author": {
     "name": "Jason Crabtree",
     "email": "jasontcrabtree@gmail.com"
