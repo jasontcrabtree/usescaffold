@@ -111,6 +111,6 @@
       "faqsListItems3": "Not at this stage (April 2020). Figma Components don't reliably save prototyping connections on duplication or re-use. Scaffold relies on copy and pasting, which has consistent behavior across files, pages and within pages. I would love to rebuild Scaffold using Components in the future, so watch this space based on changes to Figma!"
     }
   ],
-  "preLaunchSignupCopy": "Scaffold is launching early May, 2020 (fingers crossed!). If you're interested in Scaffold and how it can help you build Figma prototyping superpowers, <strong>sign up for a launch email and launch day discount code.<strong>",
+  "preLaunchSignupCopy": "Scaffold is launching early May, 2020 (fingers crossed!). If you're interested in Scaffold and how it can help you build Figma prototyping superpowers, <strong>sign up for a launch email and launch day discount code.</strong>",
   "footer": "Footer"
 }

@@ -83,7 +83,7 @@ figcaption {
 
 /* STYLING COMPONENTS */
 main ul > li {
-  list-style: url('/assets/Bullet-Point.svg');
+  list-style: url('/assets/b-point.svg');
   list-style-position: inside;
   font-size: 18px;
   line-height: 1.6;
