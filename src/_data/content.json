@@ -3,21 +3,28 @@
 
   "heroHeadline": "Premium Figma Prototyping and Animation UI Kit Library",
   "heroSubHead": "Scaffold is a UI kit library of 160 pre-built Figma design prototypes and animations for you to use in your design work. Built with a commitment to reusability, speed and flexibility, Scaffold lets you <strong>build complex Figma prototypes quickly</strong>, while staying flexible enough to fit your unique needs.",
+  "heroPrelaunch": "Scaffold is launching early May, 2020! Subscribe to receive a launch email and discount :)",
   "[Hero Image]": "content-value",
 
   "learnMoreButton": "Learn More",
   "buyNowButton": "Buy Now",
+  "launchDayDiscount": "Sign up for a Launch Day Discount",
+
+  "demoCaption1": "Scaffold is <strong>perfect</strong> for complex Embedded, Hover and Popover Menus. With a focus on smooth, native-like transitions and built for flexibility, Scaffold will save you hours constructing fancy embedded menus.",
+  "demoCaption2": " Scaffold makes use of the full range of interaction options avaliable in Scaffold — this example uses the 'While Hovering' effect to apply different filters. Perfect for testing Zoom backgrounds!",
+  "demoCaption3": "SO much of the web is forms. Log-in forms. Sign-up forms. Contact forms. And most importantly, <strong>payment forms!</strong>. Your designs deserve fancy form interactions. This example shows a full 15-step ecommerce check out flow. Check it out, coming soon!",
+  "demoCaption4": "Designing loading states and skeleton screens is as important now as ever. Scaffold helps — by giving you carefully calibrated, timed loading screens.",
 
   "useCaseHeader": "Scaffold Use Cases and Benefits",
   "useCaseListParent": [
     {
-      "useCaseListItems": "Quickly adding interactions to your existing designs"
+      "useCaseListItems": "Quickly adding interactions to your existing designs using Scaffolds examples and best-practice demonstrations for rapid Figma prototyping"
     },
     {
-      "useCaseListItems": "Prototyping complex, multi-screen animations"
+      "useCaseListItems": "Prototype complex, multi-screen animations in no-time at all using Scaffolds flexible templates and pre-built connections and interactions"
     },
     {
-      "useCaseListItems": "Showing clients interactions in your mock-ups or designs"
+      "useCaseListItems": "Show clients and colleagues smooth, animateds interactions in your mock-ups or designs"
     }
   ],
 
@@ -48,10 +55,10 @@
       "packageListItems": "The main Scaffold file that includes 40 core prototype scaffolds, and 160 total variations on those designs."
     },
     {
-      "packageListItems": "Prototypes and animations built to be used in web and mobile design suitable for almost any kind of digital design you can think of. "
+      "packageListItems": "Prototypes and animations base templates built to be used in web and mobile design suitable for almost any kind of digital design work you need. "
     },
     {
-      "packageListItems": "Prototypes and animations include designs for mobile, web, marketing, social, gallery, e-commerce, menus and navigation."
+      "packageListItems": "Prototypes and animations include designs for mobile, web, marketing, social, gallery, ecommerce, buttons, links, menus and navigation."
     },
     {
       "packageListItems": "Eight example prototypes that show the power and flexibility of Scaffold, giving you inspiration for integrating prototyping into your own work."
@@ -104,6 +111,6 @@
       "faqsListItems3": "Not at this stage (April 2020). Figma Components don't reliably save prototyping connections on duplication or re-use. Scaffold relies on copy and pasting, which has consistent behavior across files, pages and within pages. I would love to rebuild Scaffold using Components in the future, so watch this space based on changes to Figma!"
     }
   ],
-
+  "preLaunchSignupCopy": "Scaffold is launching early May, 2020 (fingers crossed!). If you're interested in Scaffold and how it can help you build Figma prototyping superpowers, <strong>sign up for a launch email and launch day discount code.<strong>",
   "footer": "Footer"
 }

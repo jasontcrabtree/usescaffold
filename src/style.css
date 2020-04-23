@@ -53,6 +53,10 @@ h1 {
   text-align: center;
 }
 
+.text--center {
+  text-align: center;
+}
+
 img,
 video {
   margin: 0 auto;
@@ -83,6 +87,12 @@ main ul > li {
   list-style-position: inside;
   font-size: 18px;
   line-height: 1.6;
+}
+
+kbd {
+  background: #c1e2fb;
+  padding: 4px;
+  border-radius: 4px;
 }
 
 .hanging-indent,
@@ -517,7 +527,7 @@ section > .package-details--grid {
     justify-content: flex-start;
   }
 }
-
+/*
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-blue-light: #b499ff;
@@ -537,3 +547,4 @@ section > .package-details--grid {
     opacity: 0.8;
   }
 }
+ */
