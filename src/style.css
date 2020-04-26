@@ -459,9 +459,14 @@ section > .package-details--grid {
     /* border: 1px solid red; */
   }
 
-  .text--hero-h1 {
+  .text--hero-h1,
+  h1 {
     font-size: 32px;
     letter-spacing: -0.4px;
+  }
+
+  h2 {
+    font-size: 24px;
   }
 
   .text--subhead {
