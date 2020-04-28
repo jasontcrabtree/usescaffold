@@ -18,8 +18,9 @@ html {
   color: var(--neutral-900);
   background-color: var(--neutral-100);
 
-  font-family: aktiv-grotesk, -apple-system, BlinkMacSystemFont, 'Open Sans',
-    sans-serif, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue';
+  font-family: aktiv-grotesk, sans-serif, helvetica, -apple-system,
+    BlinkMacSystemFont, 'Open Sans', sans-serif, Oxygen, Ubuntu, Cantarell,
+    'Helvetica Neue';
 
   /* scroll-behavior: smooth; */
 }
@@ -75,6 +76,15 @@ figure {
   box-shadow: 0px 16px 24px 0px rgba(0, 0, 0, 0.2);
 
   border-radius: 8px;
+}
+
+.figure--reset {
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.figcaption-reset {
+  padding: 0.5rem 0px;
 }
 
 figcaption {
@@ -142,6 +152,10 @@ main {
   margin-top: 1rem;
 }
 
+.hero-image--spacing-top-overide {
+  margin-top: 8rem;
+}
+
 .content-width--layout {
   max-width: 64ch;
   margin: 4rem auto;
@@ -162,7 +176,7 @@ main {
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
 
-  padding: 2em 16px;
+  padding: 1em 16px;
 }
 
 .nav-list-parent {
@@ -206,7 +220,7 @@ main {
 }
 
 .text--subhead {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: normal;
   text-align: center;
   color: hsl(256, 87%, 10%);
@@ -457,6 +471,10 @@ section > .package-details--grid {
     margin-top: 4rem; /* rem creates constant spacing top, em creates a scaled space top */
 
     /* border: 1px solid red; */
+  }
+
+  .hero-image--spacing-top-overide {
+    margin-top: 6rem;
   }
 
   .text--hero-h1,
