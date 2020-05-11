@@ -10,9 +10,9 @@
   "buyNowButton": "Buy Now",
   "launchDayDiscount": "Sign up for a Launch Day Discount",
 
-  "demoCaption1": "Scaffold is <strong>perfect</strong> for complex Embedded, Hover and Popover Menus. With a focus on smooth, native-like transitions and built for flexibility, Scaffold will save you hours constructing fancy embedded menus.",
-  "demoCaption2": " Scaffold makes use of the full range of interaction options avaliable in Scaffold — this example uses the 'While Hovering' effect to apply different filters. Perfect for testing Zoom backgrounds!",
-  "demoCaption3": "SO much of the web is forms. Log-in forms. Sign-up forms. Contact forms. And most importantly, <strong>payment forms!</strong>. Your designs deserve fancy form interactions. This example shows a full 15-step ecommerce check out flow. Check it out, coming soon!",
+  "demoCaption1": "Scaffold is <strong>perfect</strong> for complex embedded Hover and Popover Menus, common with big SaaS websites and eCommerce sites alike. With a focus on smooth, native-style transitions and built for flexibility, Scaffold will save you hours constructing rich, compelling menus. Scaffold is the base, you provide the flavor.",
+  "demoCaption2": " Scaffold uses all of the different Figma interaction options in for creative solutions. This demo uses the 'While Hovering' effect to apply different filters. Perfect for testing Zoom backgrounds!",
+  "demoCaption3": "So much of the design work we do every day is forms. Log-in forms. Sign-up forms. Contact forms. And most importantly, <strong>payment forms!</strong>. Testing the userflows of those forms is key. This example shows a full ecommerce checkout flow based on best practices from Shopify!",
   "demoCaption4": "Designing loading states and skeleton screens is as important now as ever. Scaffold helps — by giving you carefully calibrated, timed loading screens.",
 
   "useCaseHeader": "Scaffold Use Cases and Benefits",
@@ -108,9 +108,9 @@
       "faqsListItems2": "It's not recommended. Scaffold has been built based on custom animation and prototyping features in <a href=\"https://www.figma.com/prototyping/\">Figma</a>. Because of that, you'll get the best results using Scaffold in Figma. If you're interested in a future version using another tool please contact me."
     },
     {
-      "faqsListItems3": "Not at this stage (April 2020). Figma Components don't reliably save prototyping connections on duplication or re-use. Scaffold relies on copy and pasting, which has consistent behavior across files, pages and within pages. I would love to rebuild Scaffold using Components in the future, so watch this space based on changes to Figma!"
+      "faqsListItems3": "Not at this stage (May 2020). Figma Components don't reliably save prototyping connections on duplication or re-use. Scaffold relies on copy and pasting, which has consistent and reliable behavior across files and pages. I would love to rebuild Scaffold using Components so watch this space based on changes to Figma!"
     }
   ],
-  "preLaunchSignupCopy": "Scaffold is launching early May, 2020 (fingers crossed!). If you're interested in Scaffold and how it can help you build Figma prototyping superpowers, <strong>sign up for a launch email and launch day discount code.</strong>",
+  "preLaunchSignupCopy": "Scaffold is launching early May, 2020. If you're interested in Scaffold and how it can help you build Figma prototyping superpowers, <strong>sign up for a launch email and launch day discount code.</strong>",
   "footer": "Footer"
 }

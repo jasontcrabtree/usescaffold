@@ -74,6 +74,7 @@ input {
 video,
 figure {
   box-shadow: 0px 16px 24px 0px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
 
   border-radius: 8px;
 }
@@ -133,8 +134,12 @@ ul > li {
 /* owl selector */
 main > * + *,
 main > * {
-  margin-top: 6em; /* rem creates constant spacing top, em creates a scaled space top */
+  margin-top: 4.5rem; /* rem creates constant spacing top, em creates a scaled space top */
   /* outline: 1px solid red; */
+}
+
+main > * + *:first-child {
+  margin-top: 2rem;
 }
 
 main {
@@ -151,10 +156,10 @@ main {
 .flow-small > * > * + * {
   margin-top: 1rem;
 }
-
+/*
 .hero-image--spacing-top-overide {
-  margin-top: 8rem;
-}
+   margin-top: 8rem;
+} */
 
 .content-width--layout {
   max-width: 64ch;
@@ -245,6 +250,7 @@ main {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  background: #ffffff;
 }
 
 .cta-primary {
@@ -256,7 +262,7 @@ main {
 .cta-secondary {
   border: 2px solid var(--primary-blue-light);
   color: var(--primary-blue-light);
-  background: #ebeefa;
+  background: #ffffff;
 }
 
 .cta-layout--split {
@@ -279,6 +285,7 @@ section > .package-details--grid {
 .pricing-table-parent {
   display: flex;
   flex-direction: row;
+  margin-top: 2rem;
 }
 
 .pricing-table-parent > * {
@@ -286,13 +293,13 @@ section > .package-details--grid {
 }
 
 .pricing-table-parent {
-  width: 110%;
-  transform: translateX(-4.5%);
+  width: 116%;
+  transform: translateX(-7%);
 }
 
 .pricing-card {
   padding: 2rem;
-  border-radius: 24px;
+  border-radius: 8px;
 }
 
 .pricing-card-team {
@@ -312,8 +319,8 @@ section > .package-details--grid {
   justify-content: center;
   border: 2px solid var(--primary-blue-light);
   background: #f2f4f7;
-  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.35);
-  padding: 96px 2rem;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.35);
+  padding: 96px 4rem;
 }
 
 .pricing-card-pro > * + *,
@@ -335,8 +342,7 @@ section > .package-details--grid {
   font-weight: bold;
 }
 
-.faq-question-parent--spacing > *,
-.pricing-card {
+.faq-question-parent--spacing > * {
   margin-top: 1rem;
 }
 
@@ -388,7 +394,7 @@ section > .package-details--grid {
 
   width: auto;
   padding: 3rem;
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  border-radius: 48% 56% 64% 32% / 72% 24% 72% 24%;
 }
 
 .absolute-garnish--left {
@@ -396,7 +402,7 @@ section > .package-details--grid {
   width: 12rem;
 
   background: linear-gradient(
-    110deg,
+    -110deg,
     rgba(63, 94, 251, 0.2) 0%,
     rgba(252, 70, 107, 0.2) 100%
   );
@@ -408,7 +414,6 @@ section > .package-details--grid {
   z-index: -1;
 
   border-radius: 100%;
-  border: 1px solid #439ff4;
 }
 
 .absolute-garnish--right {
@@ -416,7 +421,7 @@ section > .package-details--grid {
   width: 10rem;
 
   background: linear-gradient(
-    290deg,
+    -290deg,
     rgba(63, 94, 251, 0.2) 0%,
     rgba(252, 70, 107, 0.2) 100%
   );
@@ -430,7 +435,6 @@ section > .package-details--grid {
   border-radius: 100%;
 
   background-color: #ffffff;
-  border: 1px solid #439ff4;
 }
 
 .mailchimp-parent {
@@ -495,7 +499,7 @@ section > .package-details--grid {
 
   .text--hero-h1,
   h1 {
-    font-size: 32px;
+    font-size: 40px;
     letter-spacing: -0.4px;
   }
 
@@ -575,29 +579,29 @@ section > .package-details--grid {
     width: 100%;
   }
 
+  .pricing-table-parent > * + * {
+    margin-bottom: 2rem;
+  }
+
   .pricing-table-parent {
     width: 100%;
     transform: translateX(0%);
   }
-}
-/*
-@media (prefers-color-scheme: dark) {
-  :root {
-    --primary-blue-light: #b499ff;
+
+  .pricing-card-pro {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.15);
   }
 
-  html {
-    background-color: var(--neutral-900);
-    color: var(--neutral-100);
+  .pricing-card {
+    padding: 2rem;
   }
 
-  .text--hero-h1 {
-    color: var(--primary-blue-dark);
+  .absolute-garnish--left {
+    opacity: 0.4;
   }
 
-  .text--subhead {
-    color: #d2c3fb;
-    opacity: 0.8;
+  .cta-layout--split {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
- */
