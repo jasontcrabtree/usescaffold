@@ -5,6 +5,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('json');
   eleventyConfig.addPassthroughCopy('md');
 
+  eleventyConfig.addPassthroughCopy('toml');
+
   eleventyConfig.addCollection('posts', (collection) => {
     return collection.getFilteredByGlob('src/posts/*.md');
   });
