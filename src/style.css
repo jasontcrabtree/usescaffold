@@ -108,7 +108,7 @@ kbd {
 
 .hanging-indent,
 ul > li {
-  padding-left: 22px;
+  padding-left: 24px;
   text-indent: -22px;
 }
 
@@ -280,6 +280,10 @@ section > .package-details--grid {
   margin: 0 auto;
   padding: 2rem 0px;
   grid-gap: 1rem;
+}
+
+.package-details-child span {
+  font-weight: bold;
 }
 
 .pricing-table-parent {

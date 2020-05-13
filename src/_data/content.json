@@ -10,7 +10,7 @@
   "buyNowButton": "Buy Now",
   "launchDayDiscount": "Sign up for a Launch Day Discount",
 
-  "demoCaption1": "Scaffold is <strong>perfect</strong> for complex embedded Hover and Popover Menus, common with big SaaS websites and eCommerce sites alike. With a focus on smooth, native-style transitions and built for flexibility, Scaffold will save you hours constructing rich, compelling menus. Scaffold is the base, you provide the flavor.",
+  "demoCaption1": "Scaffold is <strong>perfect</strong> for complex Hover and Popover Menus, common with big SaaS websites and eCommerce sites alike. Scaffold saves you hours by providing the base — you bring the flavor!",
   "demoCaption2": " Scaffold uses all of the different Figma interaction options in for creative solutions. This demo uses the 'While Hovering' effect to apply different filters. Perfect for testing Zoom backgrounds!",
   "demoCaption3": "So much of the design work we do every day is forms. Log-in forms. Sign-up forms. Contact forms. And most importantly, <strong>payment forms!</strong>. Testing the userflows of those forms is key. This example shows a full ecommerce checkout flow based on best practices from Shopify!",
   "demoCaption4": "Designing loading states and skeleton screens is as important now as ever. Scaffold helps — by giving you carefully calibrated, timed loading screens.",
@@ -52,16 +52,16 @@
   "packageSubhead": "Scaffold is a premium Figma library of pre-built animations and design prototypes, designed and ready to drop into your projects. Built for reusability, speed, customization and flexibility. Ready to use on a full range of projects from client work to in-house designs to new product develop or side projects.",
   "packageListParent": [
     {
-      "packageListItems": "The main Scaffold file that includes 40 core prototype scaffolds, and 160 total variations on those designs."
+      "packageListItems": "<span>200+ Animation Prototypes</span><br>The primary Scaffold Figma Library composed of 5 main categories, 60 core Prototype Animation Scaffolds, and an additional 191 variations on the base prototypes."
     },
     {
-      "packageListItems": "Prototypes and animations base templates built to be used in web and mobile design suitable for almost any kind of digital design work you need. "
+      "packageListItems": "<span>Desktop and Mobile Designs</span><br>Prototypes and animations base templates built to be used in web and mobile design suitable for almost any kind of digital design work you need. "
     },
     {
-      "packageListItems": "Prototypes and animations include designs for mobile, web, marketing, social, gallery, ecommerce, buttons, links, menus and navigation."
+      "packageListItems": "<span>Flexible Animations</span><br>Prototypes and animations include designs for mobile, web, marketing, social, gallery, ecommerce, buttons, links, menus and navigation."
     },
     {
-      "packageListItems": "Eight example prototypes that show the power and flexibility of Scaffold, giving you inspiration for integrating prototyping into your own work."
+      "packageListItems": "<span>Demo High Fidelity Prototypes</span><br>Four example prototypes that show the power and flexibility of Scaffold, giving you inspiration for integrating prototyping into your own work."
     }
   ],
   "packageContentCalloutParent": [
