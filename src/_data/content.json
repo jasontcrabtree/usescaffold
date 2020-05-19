@@ -1,8 +1,8 @@
 {
   "[logoLockupNav]": "content-value",
 
-  "heroHeadline": "Premium Figma Prototyping and Animation UI Kit Library",
-  "heroSubHead": "Scaffold is a UI kit library of 160 pre-built Figma design prototypes and animations for you to use in your design work. Built with a commitment to reusability, speed and flexibility, Scaffold lets you <strong>build complex Figma prototypes quickly</strong>, while staying flexible enough to fit your unique needs.",
+  "heroHeadline": "Premium Figma Prototyping and Animation Library",
+  "heroSubHead": "Scaffold is a UI library of 160 pre-built Figma design prototypes and animations for you to use in your design work. Built with a commitment to reusability, speed and flexibility, Scaffold lets you <strong>build complex Figma prototypes quickly</strong>, while staying flexible enough to fit your unique needs.",
   "heroPrelaunch": "Scaffold is launching early May, 2020! Subscribe to receive a launch email and discount :)",
   "[Hero Image]": "content-value",
 
@@ -12,7 +12,7 @@
 
   "demoCaption1": "Scaffold is <strong>perfect</strong> for complex Hover and Popover Menus, common with big SaaS websites and eCommerce sites alike. Scaffold saves you hours by providing the base — you bring the flavor!",
   "demoCaption2": " Scaffold uses all of the different Figma interaction options in for creative solutions. This demo uses the 'While Hovering' effect to apply different filters. Perfect for testing Zoom backgrounds!",
-  "demoCaption3": "So much of the design work we do every day is forms. Log-in forms. Sign-up forms. Contact forms. And most importantly, <strong>payment forms!</strong>. Testing the userflows of those forms is key. This example shows a full ecommerce checkout flow based on best practices from Shopify!",
+  "demoCaption3": "So much web and mobile design is forms. Log-in forms. Sign-up forms. Contact forms. And importantly, <strong>payment forms!</strong>. This example shows a fullly interactive ecommerce checkout flow based on best practices from Shopify.",
   "demoCaption4": "Designing loading states and skeleton screens is as important now as ever. Scaffold helps — by giving you carefully calibrated, timed loading screens.",
 
   "useCaseHeader": "Scaffold Use Cases and Benefits",
