@@ -52,7 +52,7 @@
   "packageSubhead": "Scaffold is a premium Figma library of pre-built animations and design prototypes, designed and ready to drop into your projects. Built for reusability, speed, customization and flexibility. Ready to use on a full range of projects from client work to in-house designs to new product develop or side projects.",
   "packageListParent": [
     {
-      "packageListItems": "<span>200+ Animation Prototypes</span><br>The primary Scaffold Figma Library composed of 5 main categories, 60 core Prototype Animation Scaffolds, and an additional 191 variations on the base prototypes."
+      "packageListItems": "<span>285 Base Scaffold Prototypes</span><br>The primary Scaffold Figma Library composed of 5 main categories, 61 core Prototype Animation Scaffolds, and an additional 191 variations on the base prototypes."
     },
     {
       "packageListItems": "<span>Desktop and Mobile Designs</span><br>Prototypes and animations base templates built to be used in web and mobile design suitable for almost any kind of digital design work you need. "
@@ -102,7 +102,7 @@
   "faqsQuestion3": "Does Scaffold use Figma Components that can fit into our existing design system?",
   "faqsListParent": [
     {
-      "faqsListItems1": "Similar to <a href=\"https://www.sketch.com/pricing/\">Sketch</a>, and <a href=\"https://useflowkit.com/license\">Flowkit</a>. All updates until Dec 2020 are included in the current price of $49.00 (single license) or $199.0 (team license). Future releases will be marked with a new version number."
+      "faqsListItems1": "Similar to <a href=\"https://www.sketch.com/pricing/\">Sketch</a>, and <a href=\"https://useflowkit.com/license\">Flowkit</a>. All updates until Dec 2020 are included in the current price of $79.00 (single license) or $229.0 (team license). Future releases will be marked with a new version number."
     },
     {
       "faqsListItems2": "It's not recommended. Scaffold has been built based on custom animation and prototyping features in <a href=\"https://www.figma.com/prototyping/\">Figma</a>. Because of that, you'll get the best results using Scaffold in Figma. If you're interested in a future version using another tool please contact me."

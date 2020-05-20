@@ -257,6 +257,7 @@ main {
   background: var(--primary-blue-light);
   color: var(--neutral-100);
   font-weight: bold;
+  padding: 8px 32px;
 }
 
 .cta-secondary {
