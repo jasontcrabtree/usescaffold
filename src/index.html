@@ -6,6 +6,7 @@ layout: layouts/base.html
   <section class="rellax" data-rellax-speed="-2" data-rellax-zindex="0">
     <h1 class="text--hero-h1">{{- content.heroHeadline -}}</h1>
     <p class="text--subhead">{{- content.heroSubHead -}}</p>
+    <p class="text--subhead">{{- content.heroSubHead2 -}}</p>
   </section>
 
   <div class="rellax absolute-garnish--left"></div>
@@ -16,9 +17,12 @@ layout: layouts/base.html
     data-rellax-speed="-1"
     data-rellax-zindex="1"
   >
-    <a class="cta-default-layout primary-page-ctas" href="/#package"
-      >{{- content.learnMoreButton -}}</a
-    >
+    <a
+      class="cta-default-layout primary-page-ctas"
+      href="https://gum.co/zcDdW"
+      target="_blank"
+      >Free Demo
+    </a>
     <a class="cta-default-layout primary-page-ctas cta-primary" href="/#price">
       {{- content.buyNowButton -}}
     </a>
@@ -143,6 +147,12 @@ layout: layouts/base.html
         <span class="faq-question--style">{{content.faqsQuestion3}}</span>
         <br />
         {%- for item in content.faqsListParent -%} {{item.faqsListItems3}} {%-
+        endfor -%}
+      </li>
+      <li class="hanging-indent">
+        <span class="faq-question--style">{{content.faqsQuestion4}}</span>
+        <br />
+        {%- for item in content.faqsListParent -%} {{item.faqsListItems4}} {%-
         endfor -%}
       </li>
     </ul>
