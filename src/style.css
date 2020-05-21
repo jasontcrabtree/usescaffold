@@ -26,7 +26,7 @@ html {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 40px;
   color: var(--primary-blue-light);
   line-height: 1.2;
 }
@@ -134,7 +134,7 @@ ul > li {
 /* owl selector */
 main > * + *,
 main > * {
-  margin-top: 4.5rem; /* rem creates constant spacing top, em creates a scaled space top */
+  margin-top: 4rem; /* rem creates constant spacing top, em creates a scaled space top */
   /* outline: 1px solid red; */
 }
 
@@ -143,7 +143,7 @@ main > * + *:first-child {
 }
 
 main {
-  max-width: 50rem;
+  max-width: 48rem;
   width: auto;
   padding: 1rem;
   margin: 0rem auto;
@@ -179,7 +179,7 @@ main {
 
 .nav-header {
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.05);
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.07);
 
   padding: 1em 16px;
 }
@@ -216,7 +216,7 @@ main {
 
 .text--hero-h1 {
   color: var(--primary-blue-light);
-  font-size: 56px;
+  font-size: 52px;
   font-weight: 900;
   letter-spacing: -1.6px;
   text-align: center;
@@ -225,12 +225,16 @@ main {
 }
 
 .text--subhead {
-  font-size: 20px;
+  /* font-size: 20px; */
+
+  font-size: calc(2px + 2vmin);
   font-weight: normal;
-  text-align: center;
+  text-align: left;
   color: hsl(256, 87%, 10%);
 
   letter-spacing: -0.4px;
+
+  margin: 0px 2rem;
 }
 
 /* CTA/BUTTONS */
@@ -258,6 +262,19 @@ main {
   color: var(--neutral-100);
   font-weight: bold;
   padding: 8px 32px;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.17);
+}
+
+.cta-primary:hover {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.17);
+}
+
+.cta-primary:hover {
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.17);
 }
 
 .cta-secondary {
@@ -268,6 +285,8 @@ main {
 
 .cta-layout--split {
   display: flex;
+  margin-right: 6rem;
+  margin-left: 6rem;
 }
 
 .primary-page-ctas {
@@ -304,11 +323,10 @@ section > .package-details--grid {
 
 .pricing-card {
   padding: 2rem;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 .pricing-card-team {
-  border: 2px solid #d4dae2;
   background: #ffffff;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -322,10 +340,10 @@ section > .package-details--grid {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 2px solid var(--primary-blue-light);
+  border-top: 8px solid var(--primary-blue-light);
   background: #f2f4f7;
   box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.35);
-  padding: 96px 4rem;
+  padding: 72px 4rem;
 }
 
 .pricing-card-pro > * + *,
@@ -415,10 +433,12 @@ section > .package-details--grid {
   position: absolute;
 
   margin-top: -22rem;
-  margin-left: -6rem;
+  margin-left: -8rem;
   z-index: -1;
 
   border-radius: 100%;
+
+  opacity: 0.5;
 }
 
 .absolute-garnish--right {
@@ -434,12 +454,12 @@ section > .package-details--grid {
   position: absolute;
 
   margin-top: -8rem;
-  margin-left: 44em;
+  margin-left: 42em;
   z-index: -1;
 
   border-radius: 100%;
 
-  background-color: #ffffff;
+  opacity: 0.5;
 }
 
 .mailchimp-parent {
@@ -491,8 +511,7 @@ section > .package-details--grid {
 }
 
 @media screen and (max-width: 699px) {
-  main > * + *,
-  main > * {
+  main > * + * {
     margin-top: 4rem; /* rem creates constant spacing top, em creates a scaled space top */
 
     /* border: 1px solid red; */
@@ -504,8 +523,9 @@ section > .package-details--grid {
 
   .text--hero-h1,
   h1 {
-    font-size: 40px;
+    font-size: 36px;
     letter-spacing: -0.4px;
+    text-align: left;
   }
 
   h2 {
@@ -514,6 +534,8 @@ section > .package-details--grid {
 
   .text--subhead {
     font-size: 18px;
+    margin: 0px;
+    text-align: left;
   }
 
   .nav__page-links--hidden {
@@ -523,7 +545,7 @@ section > .package-details--grid {
   .footer-parent {
     display: flex;
     flex-direction: column;
-    margin: 4rem auto 6rem;
+    margin: 4rem auto 8rem;
   }
 
   .footer-core-links {
