@@ -6,6 +6,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('md');
 
   eleventyConfig.addPassthroughCopy('./src/netlify.toml');
+  eleventyConfig.addPassthroughCopy('./src/_redirects');
 
   eleventyConfig.addCollection('posts', (collection) => {
     return collection.getFilteredByGlob('src/posts/*.md');

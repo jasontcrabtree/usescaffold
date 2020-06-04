@@ -1,3 +1,2 @@
-/* eslint-disable */
-const rellax = new Rellax('.rellax');
-document.addEventListener('DOMContentLoaded', yall);
+// eslint-disable-next-line no-undef
+// document.addEventListener('DOMContentLoaded', yall);

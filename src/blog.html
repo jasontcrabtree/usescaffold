@@ -1,0 +1,39 @@
+---
+layout: layouts/base.html
+title: 'Figma Prototyping and Animation Library'
+description: 'Blog posts and YouTube tutorials written to help make Scaffold work for you. Build high quality, complex Figma Prototypes and learn the Figma tips and tricks to Figma prototyping on the Scaffold blog.'
+image:
+imageAlt:
+canonical: blog
+---
+
+<main class="flow-small content-width--layout">
+  <section>
+    <h1>Scaffold Blog Posts</h1>
+  </section>
+
+  <section>
+    <ul class="blog-list--parent__layout ">
+      {%- for post in collections.blog -%}
+
+      <li class="blog-list--card card ">
+        {% if post.data.image %}
+        <img
+          loading="lazy"
+          width="1200"
+          src="{{post.data.image}}"
+          alt="{{post.data.imageAlt}}"
+        />
+        {% endif %}
+
+        <date class="blog-date">{{- post.date | date: "%Y-%m-%d" -}}</date>
+
+        <a class="blog-link main-link" href="{{post.url}}">
+          {{- post.data.title -}}
+        </a>
+      </li>
+
+      {%- endfor -%}
+    </ul>
+  </section>
+</main>

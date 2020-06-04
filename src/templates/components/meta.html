@@ -1,28 +1,22 @@
-<meta name="title" content="{{ metadata.siteName }}"/>
-<meta property="og:title" content="{{ metadata.siteName }}"/>
-<meta name="description" content="{{ metadata.description }}"/>
-<meta property="og:description" content="{{ metadata.description }}"/>
+<meta content="Scaffold: {{- title | default: metadata.siteName -}}" name="title"/>
+<meta name="description" content="{{- description | default: metadata.description -}}"/>
+<meta name="twitter:image:alt" content="{{- imageAlt | default: metadata.imageAlt -}}"/>
+<meta content="Scaffold: {{- title | default: metadata.siteName -}}" property="og:title"/>
+<meta property="og:description" content="{{- description | default: metadata.description -}}"/>
+<meta content="Scaffold: {{- title | default: metadata.siteName -}}" property="og:site_name"/>
+<meta property="og:image:secure_url" content="{{- image | default: metadata.image -}}"/>
+<meta property="twitter:image" content="{{- image | default: metadata.image -}}"/>
+<meta content="Scaffold: {{- title | default: metadata.siteName -}}" property="twitter:title"/>
+<meta property="twitter:description" content="{{- description | default: metadata.description -}}"/>
 
-<meta property="og:image" content="{{ metadata.image }}"/>
-<meta property="og:image:secure_url" content="{{ metadata.image }}"/>
-<meta property="twitter:image" content="{{ metadata.image }}"/>
-
-<meta property="og:url" content="{{ metadata.url }}"/>
-<meta property="og:site_name" content="{{ metadata.siteName }}"/>
-<meta content="summary_large_image" name="twitter:card"/>
-<meta name="twitter:image:alt" content="{{ metadata.imageAlt }}"/>
-<meta content="@jasontcrabtree" name="twitter:site"/>
-
-<!-- Open Graph / Facebook -->
 <meta content="website" property="og:type"/>
-<meta content="https://usescaffold.com/" property="og:url"/>
-<meta property="og:title" content="{{ metadata.siteName }}"/>
 
-<meta content="https://usescaffold.com/assets/images/social-image.png" property="og:image"/>
-
-<!-- Twitter -->
-<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://usescaffold.com/{{- canonical | default: -}}" property="og:url"/>
+<meta content="{{- image | default: metadata.image -}}" property="og:image"/>
+<meta content="{{- image | default: metadata.image -}}" property="twitter:image"/>
 <meta content="https://usescaffold.com/" property="twitter:url"/>
-<meta property="twitter:title" content="{{ metadata.siteName }}"/>
-<meta property="twitter:description" content="{{ metadata.description }}"/>
-<meta content="https://usescaffold.com/assets/images/social-image.png" property="twitter:image"/>
+<meta content="@usescaffold" name="twitter:site"/>
+<meta content="@jasontcrabtree" name="twitter:creator"/>
+<meta content="summary_large_image" property="twitter:card"/>
+
+<link href="https://usescaffold.com/{{-canonical | default: -}}" rel="canonical"/>
