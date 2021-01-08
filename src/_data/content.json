@@ -1,13 +1,13 @@
 {
   "[logoLockupNav]": "content-value",
 
-  "heroHeadline": "Build High Fidelity Figma Prototypes, Quicker than Ever Before.",
+  "heroHeadline": "Build High Quality Figma Prototypes Fast with Pre-built, Customisable Animation Templates",
   "heroSubHead": "Scaffold is a Premium Figma Prototyping and Animation Library that includes 200+ design prototypes built with animated frame connections and transitions ready for you to use in your design work today. Designed with a commitment to reusability, speed and flexibility, <strong>Scaffold helps you build complex, unique Figma prototypes quickly.</strong>",
   "heroSubHead2": "Scaffold saves you countless hours stuck in connection spaghetti, giving you extra time to work on what you do best — doing rad design work.",
   "[Hero Image]": "content-value",
 
   "learnMoreButton": "Learn More",
-  "buyNowButton": "Buy Now",
+  "buyNowButton": "Buy Now — $29",
   "launchDayDiscount": "Sign up for a Launch Day Discount",
 
   "demoCaption1": "Scaffold is <strong>perfect</strong> for complex Hover and Popover Menus, common with big SaaS websites and eCommerce sites alike. Scaffold saves you hours by providing the base — you bring the flavor!",
@@ -144,7 +144,7 @@
   "faqsQuestion4": "Do you have a student discount or a pricing parity discount for different countries around the world?",
   "faqsListParent": [
     {
-      "faqsListItems1": "Similar to <a href=\"https://www.sketch.com/pricing/\">Sketch</a>, and <a href=\"https://useflowkit.com/license\">Flowkit</a>. All updates until Dec 2020 are included in the current price of $59.00 (single license) or $199.0 (team license). Future releases will be marked with a new version number."
+      "faqsListItems1": "Similar to <a href=\"https://www.sketch.com/pricing/\">Sketch</a>, and <a href=\"https://useflowkit.com/license\">Flowkit</a>. All updates until Dec 2020 are included in the current price of $29 (single license) or $79 (team license). Future releases will be marked with a new version number."
     },
     {
       "faqsListItems2": "It's not recommended. Scaffold has been built based on custom animation and prototyping features in <a href=\"https://www.figma.com/prototyping/\">Figma</a>. Because of that, you'll get the best results using Scaffold in Figma. If you're interested in a future version using another tool please contact me."
