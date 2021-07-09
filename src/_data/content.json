@@ -144,7 +144,7 @@
   "faqsQuestion4": "Do you have a student discount or a pricing parity discount for different countries around the world?",
   "faqsListParent": [
     {
-      "faqsListItems1": "Similar to <a href=\"https://www.sketch.com/pricing/\">Sketch</a>, and <a href=\"https://useflowkit.com/license\">Flowkit</a>. All updates until Dec 2020 are included in the current price of $29 (single license) or $79 (team license). Future releases will be marked with a new version number."
+      "faqsListItems1": "Similar to <a href=\"https://www.sketch.com/pricing/\">Sketch</a>, and <a href=\"https://useflowkit.com/license\">Flowkit</a>. All updates until Dec 2020 are included in the current price of $29 (single license) or $159 (team license). Future releases will be marked with a new version number."
     },
     {
       "faqsListItems2": "It's not recommended. Scaffold has been built based on custom animation and prototyping features in <a href=\"https://www.figma.com/prototyping/\">Figma</a>. Because of that, you'll get the best results using Scaffold in Figma. If you're interested in a future version using another tool please contact me."
